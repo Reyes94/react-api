@@ -1,0 +1,67 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(assets/space.jpg);
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    padding-bottom: 4rem;
+}
+
+.navbar{
+    background-color: #008d88;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+
+.navbar a{
+    font-family: 'Russo One', sans-serif;
+    font-size: 35px;
+    color: red;
+    text-shadow: 1px 1px 2px yellow;
+}
+
+.title{
+    font-family: 'Russo One', sans-serif;
+    color: red;
+    text-shadow: 1px 1px 2px yellow;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 50px;
+}
+
+.card{
+    background-color: #d3f6fc;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+}
+
+.card img{
+    height: 20vw;
+}
+
+.card-title{
+    font-family: 'Russo One', sans-serif;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+footer{
+    background-color: #008d88;
+    color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 0.5rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / .7);
+}
+
+.links{
+    color: red;
+    text-shadow: 1px 1px 2px yellow;
+    font-size: 27px;
+}
